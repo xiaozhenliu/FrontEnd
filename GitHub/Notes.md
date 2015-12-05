@@ -25,4 +25,21 @@ __Commands__:
 ###Check commit
 - git checkout `_commit ID`
 
+##Lesson 2
+### Initialize 
+- `git init`
+- check git status: `git status`
 
+### Commit changes
+- working directory -> staging area -> repository
+- `git add _file_to_update_`
+- remove from staging area by using `git reset`
+
+### Write a commit message
+- `git commit`
+- `git commit -m "Commit message"`
+- commit message [style guide](http://udacity.github.io/git-styleguide/)
+
+### Git diff revisited
+- `git diff --staged`
+- Leave 'detached HEAD' state: `git checkout master`
